@@ -4,17 +4,20 @@ https://www.youtube.com/watch?v=0cPCMIuDk2I
 
 Proyecto ejemplo 
 
-
 # Git Bases 
 
 #### Guardar la URL del repositorio de GitHub con el nombre de origin
-git remote add origin URL
-Verificar que la URL se haya guardado correctamente:
-git remote
-git remote -v
-Traer la versión del repositorio remoto y hacer merge para crear un commit con los archivos de ambas partes. Podemos usar git fetch y git merge o solo git pull con el flag --allow-unrelated-histories:
-git pull origin master --allow-unrelated-histories
-Por último, ahora sí podemos hacer git push para guardar los cambios de nuestro repositorio local en GitHub:
-git push origin master
+git clone https://github.com/Andrezkstro/merndashboard.git
+
+Git add . 
+git commit - m "comentario"
+
+git push origin main 
+
+Verificar nuevos cambios en main 
+git pull origin main 
+
+Validar el status de el proyecto 
+git status 
 
 ### https://github.com/Andrezkstro/merndashboard.git Base del Proyecto
